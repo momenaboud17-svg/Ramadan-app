@@ -1,0 +1,24 @@
+{
+    "name": "رمضانيات - ختمة وتسبيح",
+    "short_name": "رمضانيات",
+    "description": "تطبيق رمضاني متكامل لتتبع ختمة القرآن والأذكار",
+    "start_url": "/ramadan-app/app.html",
+    "scope": "/ramadan-app/",
+    "display": "standalone",
+    "background_color": "#1a1a2e",
+    "theme_color": "#c5a059",
+    "icons": [
+      {
+        "src": "/ramadan-app/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/ramadan-app/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

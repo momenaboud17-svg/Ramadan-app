@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيق رمضانيات | Momen Aboud</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, 'Cairo', sans-serif;
+    }
+    body {
+      background: linear-gradient(145deg, #1a1a2e, #0f0f1a);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(20, 20, 35, 0.95);
+      backdrop-filter: blur(10px);
+      border: 2px solid #c5a05940;
+      border-radius: 48px;
+      padding: 40px 30px;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 30px 50px rgba(0,0,0,0.7);
+    }
+    .icon {
+      width: 120px;
+      height: 120px;
+      background: #c5a05920;
+      border-radius: 30px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #c5a059;
+    }
+    .icon svg {
+      width: 80px;
+      height: 80px;
+    }
+    h1 {
+      color: #c5a059;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .creator {
+      color: #f5f0e6;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 15px 0 5px;
+      background: #c5a05920;
+      padding: 15px 30px;
+      border-radius: 60px;
+      display: inline-block;
+      border: 2px solid #c5a05960;
+    }
+    .badge {
+      background: #c5a059;
+      color: #1a1a2e;
+      padding: 8px 25px;
+      border-radius: 40px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin: 20px 0;
+      display: inline-block;
+    }
+    .steps {
+      text-align: right;
+      background: #1f1f36;
+      border-radius: 40px;
+      padding: 25px;
+      margin: 25px 0;
+      color: #e0d6c0;
+    }
+    .steps li {
+      margin-bottom: 15px;
+      list-style-type: '✨ ';
+      font-size: 1.2rem;
+      padding-right: 10px;
+    }
+    .btn {
+      background: #c5a059;
+      color: #1a1a2e;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 60px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin: 20px 0;
+      box-shadow: 0 10px 25px #c5a05960;
+      transition: 0.3s;
+      width: 100%;
+    }
+    .btn:hover {
+      background: #dbb468;
+      transform: scale(1.02);
+    }
+    .note {
+      color: #c5a05990;
+      font-size: 1.2rem;
+      border-top: 1px dashed #c5a05940;
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <div class="icon">
+      <svg viewBox="0 0 100 100">
+        <rect width="100" height="100" fill="#1a1a2e" rx="20"/>
+        <path d="M20 50 L50 20 L80 50 L50 80 Z" fill="#c5a059"/>
+        <circle cx="50" cy="50" r="18" fill="#c5a059"/>
+        <path d="M35 40 Q50 30 65 40" stroke="#f5e6d3" stroke-width="5" fill="none"/>
+        <text x="50" y="82" font-size="18" text-anchor="middle" fill="#f5e6d3" font-family="Arial">﴿﴾</text>
+      </svg>
+    </div>
+    
+    <h1>تطبيق رمضانيات</h1>
+    
+    <div class="creator">
+      ⚡ Momen Aboud ⚡
+    </div>
+    
+    <div class="badge">
+      🌙 ختمة • حديث • تسبيح • نقاط
+    </div>
+    
+    <div class="steps">
+      <h3 style="color:#c5a059; margin-bottom:15px;">📲 خطوات التثبيت:</h3>
+      <ul>
+        <li><strong>على الجوال:</strong> اضغط على النقاط الثلاث ثم اختر "تثبيت التطبيق"</li>
+        <li><strong>بعد التثبيت:</strong> هتلاقي أيقونة التطبيق على شاشتك الرئيسية</li>
+      </ul>
+    </div>
+    
+    <a href="/ramadan-app/app.html" class="btn">✨ افتح التطبيق</a>
+    
+    <div class="note">
+      تم البرمجة بواسطة <strong>مؤمن عبود</strong> © 2026
+    </div>
+  </div>
+</body>
+</html>
